@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(196, 217, 235);
+    margin: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    html, body {
+  overflow-x: hidden;
+}
+}
+.container{
+    background-color: rgb(241, 246, 246);
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 8px 8px 10px rgba(132, 167, 216, 0.5);
+    border-radius: 1rem;
+    
+
+}
+p{
+    display:inline-block;
+    position: relative;
+    left: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+nav {
+  display: flex;              /* Make links in a row */
+  justify-content: center;    /* Center horizontally */
+   /* Navbar background */
+  padding: 15px 0;  
+  display: inline-block;   
+  position: absolute;    
+  left: 55rem;   /* Some spacing */
+}
+
+nav a {
+  text-decoration: none;      /* Remove underline */
+  color: black;
+  margin: 0 20px;             /* Space between links */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(135, 167, 249);                 /* Hover effect */
+}
+hr {
+  height: 1px;            /* thin line */
+  background-color: #ccc;  /* line color */
+  border: none;            /* remove default border */
+}
+.container1{
+    height: 60vh;
+    width:70vw;
+    
+    position: absolute;
+    left:15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:150%;
+}
+h1 p{
+    font-family: "Arial Black", "Impact", sans-serif;
+    color: rgb(87, 87, 204);
+}
+.photo{
+    height: 50vh;
+    width: 25vw;
+    background-color: black;
+    position: absolute;
+    left: 40rem;
+    border-radius: 50%;
+    background-image: url(ajeet.jpg);
+    background-size: cover;
+    background-color: rgb(241, 246, 246);
+    
+}
+button{
+  height: 4vh;
+  width: 6vw;
+  background-color: rgb(87, 87, 204);
+  color: white;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 8px rgba(40, 124, 243, 0.5);
+}
+button a{
+  text-decoration: none;
+}
+button:hover{
+  background-color: blue;
+  cursor: pointer;
+  
+}
+.social-media{
+  width: 10vw;
+  height: 2vw;
+  
+  position: absolute;
+  top:85vh;
+  left: 15vw;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.social-media a{
+  text-decoration: none;
+  color: black;
+}
+ 

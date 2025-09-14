@@ -1,0 +1,114 @@
+*{
+   margin: 0;
+   padding: 0; 
+   box-sizing: border-box;
+}
+body{
+    font-family:'outfit';
+    /* background: linear-gradient(#ffdad5,#fff7f9); */
+    background-color: rgb(196, 217, 235);
+    overflow: hidden;
+}
+.contact-container{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction:column;
+    align-items: start;
+    gap:20px;
+}
+.contact-left-title h2{
+font-weight: 600;
+/* color: #a363aa; */
+color: rgb(87, 87, 204);
+font-size: 40px;
+margin-bottom: 5px;
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    /* background-color: #a363aa; */
+    background-color: rgb(87, 87, 204);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs{
+    width:400px;
+    height: 50px;
+    border: none;
+    outline:none;
+    padding-left:25px;
+    font-weight: 500;
+    color:#666;
+    border-radius: 50px;
+}
+.contact-left textarea{
+    height: 140px;
+    padding-top:15px;
+    border-radius: 20px;
+}
+.contact-inputs:focus{
+    border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder{
+    color:#a9a9a9;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color:#fff;
+    gap:10px;
+    border:none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,#5110a5,#fa6d86);
+    cursor: pointer;
+}
+.contact-left button img{
+    height:15px;
+}
+.contact-right img{
+    width:500px;
+}
+.container{
+    background-color: rgb(241, 246, 246);
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 8px 8px 10px rgba(132, 167, 216, 0.5);
+    border-radius: 1rem;
+    position: absolute;
+    top:4.5rem;
+    left:9.5rem;
+}
+nav {
+  display: flex;              /* Make links in a row */
+  justify-content: center;    /* Center horizontally */
+   /* Navbar background */
+  padding: 15px 0;  
+  display: inline-block;   
+  position: absolute;    
+  left: 50rem;   /* Some spacing */
+  width: 25rem;
+}
+
+nav a {
+  text-decoration: none;      /* Remove underline */
+  color: black;
+  margin: 0 20px;             /* Space between links */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(135, 167, 249);                 /* Hover effect */
+}
+.hr{
+  position: absolute;  
+  top:2rem; 
+        
+}
